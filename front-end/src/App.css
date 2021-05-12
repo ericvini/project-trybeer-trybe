@@ -1,0 +1,251 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 25vw;
+  margin-top: 5vw;
+}
+
+.email-input-label,
+.password-input-label,
+.name-input-label,
+.seller-input-label {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 3vw;
+  margin: 1vw 20vw;
+}
+
+.email-input,
+.password-input,
+.name-input,
+.seller-input {
+  padding: 2vw;
+  width: 60vw;
+}
+
+.signin-btn {
+  background-color: #1CD118;
+  cursor: pointer;
+  font-size: 3vw;
+  padding: 1vw;
+  margin: 2vw 20vw;
+}
+
+.no-account-btn {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-size: 3vw;
+  margin: 0 20vw;
+  padding: 1vw;
+}
+
+@media (max-width: 1366px) {
+  .menu-top-container {
+    background-color: #100F0F;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-hamburger {
+    background-color: #100F0F;
+    border: 1px solid #FFFFFF;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    width: 4.5vw;
+    height: 3.5vw;
+  }
+  
+  .span-menu-hamburger {
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.4vw;
+    margin-left: 0.9vw;
+    width: 1.5vw;
+  }
+  
+  .span-menu-1{
+    margin-top: 1vw;
+  }
+  
+  .page-title {
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+
+  .side-menu-container {
+    background-color: #100F0F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    height: 45vw;
+  }
+
+  .side-menu-link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar-link, .sidebar-logout {
+    align-items: center;
+    background-color: #181717;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    height: 5vw;
+    margin: 2vw 0;
+    text-decoration: none;
+  }
+
+  .side-menu-container-admin {
+    background-color: #100F0F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    height: 55vw;
+  }
+
+  .pageAdmin-title {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+}
+
+.div-container, .details-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div-container-card {
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #100F0F;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 0;
+  width: 28vw;
+  height: 33vw;
+}
+
+.img-card {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 25vw;
+}
+
+.name-card, .price-unit-card {
+  margin-bottom: 1vw;
+}
+
+.quantity-button-span-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10vw;
+}
+
+.checkout-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.checkout-button {
+  align-items: center;
+  background-color: #1CD118;
+  display: flex;
+  height: 3vw;
+  justify-content: center;
+  margin-bottom: 1vw;
+  width: 40vw;
+}
+
+.checkout-button, .checkout-button-text, .checkout-finish-button {
+  color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 1.4vw;
+}
+
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+}
+
+.checkout-unit-price {
+  margin: 0 0.5vw;
+  font-size: 1.1vw;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-form-label {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.checkout-quantity, .checkout-name, .checkout-value, .checkout-form-input {
+  margin-left: 1vw;
+}
+
+.checkout-finish-button {
+  background-color: #1CD118;
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-bottom: 2vw;
+  width: 15vw;
+}
+
+.details-container-order {
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #100F0F;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 0;
+  width: 18vw;
+  height: 18vw;
+}
+
+.details-container {
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #100F0F;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1vw;
+}
+
+.details-container-span {
+  margin: 0.2vw 0;
+}
+
+.details-price {
+  font-size: 1.1vw;
+}
